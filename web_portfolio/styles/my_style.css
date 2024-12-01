@@ -1,0 +1,77 @@
+h1 {
+    color: darkolivegreen;
+    font-size: 2.8em;                /* 1em is the default fontsize on the device*/
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    border: solid;
+}
+
+ul {
+    list-style: none;    /* gets rid of bullet points */
+}
+
+body {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: left;
+    width: 1000px;
+    margin: 0 auto;         /* centers content within the 1000px frame/width */
+}
+
+#first {
+    background-color: seagreen;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.circle {
+    background-color: royalblue;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.border {
+    border-style: solid;
+}
+
+.banner {
+    background-color: greenyellow;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+nav{
+    /* clear property will move the nav element on its own line and left justify */
+    clear:left;
+    padding:2em;
+    margin-left: 5em;
+}
+
+nav ul li {
+    /* float is used for positioning */
+    float: left;
+    margin-right: 0.5em;
+}
+
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: #EBF5FF; /* pale bluish white */
+    color: #4312AE; /* font color dark blue */
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
